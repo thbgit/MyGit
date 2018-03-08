@@ -1,0 +1,317 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+
+/*头部功能：log加欢迎信息*/
+
+.nav{
+	width: 100%;
+	position: relative;
+	float: left;
+}
+
+.page{
+	width: 980px;
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+	text-align: center;
+	float: left;
+}
+
+.logo,.register{
+	float: left;
+	position: relative;
+	margin-top: 22px;
+}
+
+.logo{
+	margin-bottom: 24px;
+	margin-right: 260px;
+}
+
+
+.register{
+	margin-bottom: 22px;
+}
+
+/*第一行*/
+.register .one{
+	height: 14px;
+	text-align: center;
+	/*margin-top: 20px;*/
+	
+}
+
+/*欢迎框架中超链接的样式*/
+a{
+	text-decoration: none;
+	color: #333333;
+}
+
+.register .own,.register .custom{
+	margin-right: 18px;
+	border: none;
+	-moz-appearance:none;
+	background: url(../img/homeimages/arrows.png) no-repeat scroll right center transparent;
+	padding-right: 12px;
+}
+
+/*第二行*/
+.register .two{
+	width: 340px;
+	margin-top: 14px;
+	height: 18px;
+}
+
+/*搜索div样式*/
+.search{
+	width: 120px;
+	height: 16px;
+	margin-left: 96px;
+	border-bottom: 1px solid #666666;
+	padding-bottom: 2px;
+	float: left;
+}
+
+/*搜索input样式*/
+.input{
+	width: 108px;
+	border: none;
+}
+
+/*购物车样式*/
+.shoppingcart{
+	margin-left: 22px;
+}
+.register .count{
+	margin-left: 6px;
+	color: #c81d31;
+}
+
+
+
+
+/*links导航栏*/
+/*导航栏*/
+.links {
+	float: left;
+	width: 100%;
+	position: relative;
+	height: 40px;
+	background: #000000;
+}
+.links_list{
+	width: 980px;
+	position: relative;
+	height: 40px;
+	left: 50%;
+	margin-left: -490px;
+	text-align: center;
+}
+.links_list li {
+	display: inline-block;
+	margin-right: 162px;
+	padding-top: 12px;
+}
+
+.links_list li:last-child{
+	margin-right: 0px;
+}
+
+.links_list a{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #f6f6f6;
+	text-decoration: none;
+	padding-bottom: 3px;
+	
+}
+.links_list a:hover{
+	border-bottom: 1px solid #f6f6f6;
+}
+.links_list a:visited{
+	border-bottom: 1px solid #f6f6f6;
+}
+
+.links_list .first{
+	border-bottom: 1px solid #f6f6f6;
+}
+
+.banner{
+	width: 100%;
+	overflow: hidden;
+}
+
+.banner img{
+	position: relative;
+	left: 50%;
+	margin-left: -960px;
+	
+}
+
+
+/*内容框架*/
+.main{
+	float: left;
+	width: 100%;
+	position: relative;
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom: 40px;
+}
+
+
+/*首页*/
+/*内容*/
+.content {
+	float: left;
+	width: 980px;
+	height: 1200px;
+	padding-top: 30px;
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+}
+
+.content .up,.up .up_left,.up .up_right,.content .down,.down .down_left,.down .down_right{
+	float: left;
+}
+
+.content .down,.content .up {
+	margin-top: 20px;
+}
+.up .up_left, .down .down_left{
+	margin-right: 20px;
+}
+
+
+.word {
+	text-align: center;
+}
+
+.word .fi{
+	font-size: 24px;
+	margin-top: 20px;
+	color: #333333;
+}
+
+.word .sc{
+	font-size: 14px;
+	color: #666666;
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+
+.word .th{
+	font-size: 14px;
+	margin-top: 20px;
+	color: #333333;
+	
+}
+.word hr{
+	height: 1px;
+	width: 30px;
+	color: #666666;
+	margin-top: 14px;
+	position: relative;
+	left: 50%;
+	margin-left: -15px;
+}*/
+/*首页*/
+
+
+
+
+/*页脚：广告和版权信息*/
+.footer{
+	margin-top: 22px;
+	float: left;
+	width: 100%;
+	position: relative;
+	/*background-color: green;*/
+}
+
+
+.subfooter{
+	width: 980px;	
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+}
+
+.subfooter .serve{
+	float: left;
+	margin-top: 54px;
+	margin-bottom: 54px;
+	margin-right: 110px;
+}
+
+.subfooter .other{
+	margin-right: 0px;
+}
+
+
+.serve td{
+	height: 26px;
+	text-align: center;
+	font-size: 12px;
+	color: #999999;
+	padding-top: 6px;
+	letter-spacing: 0.1em;
+}
+
+.serve img{
+	height: 20px;
+	vertical-align: bottom;
+}
+
+.serve span{
+	font-size: 18px;
+	color: #333333;
+	margin-left: 8px;
+}
+
+.info p{
+	margin-top: 8px;
+}
+
+/*版本信息*/
+.copyright{
+	float: left;
+	width: 100%;
+	height: 30px;
+	position: relative;
+	background-color: #000000;
+	padding-top: 6px;
+}
+
+.copyright table{
+	width: 980px;
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+}
+
+.copyright td{
+	color: #999999;
+	font-size: 10px;
+	text-align: center;
+	letter-spacing: 0.2em;
+}
+
+td a{
+	color: #999999;
+	font-size: 10px;
+	text-align: center;
+	margin-left: 6px;
+}
+
+.copyright #one{
+	text-align: left;
+}
+.copyright #thi{
+	text-align: right;
+}

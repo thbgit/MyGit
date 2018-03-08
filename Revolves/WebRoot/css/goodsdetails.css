@@ -1,0 +1,535 @@
+/*div{
+	border: 1px solid red;
+}*/
+
+.main {
+	width: 980px;
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+	padding-top: 26px;
+	margin-bottom: 60px;
+	border-bottom: 1px solid #333333;
+	/*border: 1px springgreen solid;*/
+}
+.links_list>li:nth-child(2) {
+	padding-bottom: 3px;
+	border-bottom: 1px solid #F6F6F6;
+}
+
+/*主体框架CSS*/
+/*layer部分*/
+.layer1{
+	border-bottom: 2px solid #333333;
+	padding-bottom: 18px;
+	margin-bottom: 2px;
+}
+.layer1>img{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+
+/*第二部分 左右两边的css开始*/
+.layer2{
+	border-top: 1px solid #333333;
+	border-bottom: 2px solid #333333;
+	height: 520px;
+	padding-top: 1px;
+	/*padding-bottom: 60px;*/
+	/*margin-bottom: 20px;*/
+}
+
+/*第二部分 左边的css开始*/
+.layer2>.layerleft{
+	text-align: center;
+	float: left;
+	width: 480px;
+	height: 520px;
+	margin-right: 80px;
+}
+
+
+/*第二部分 右边的css开始*/
+
+/*第二部分 右边外框架设置上下内边距*/
+.layer2>.layerright{
+	float: left;
+	width: 300px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+
+
+/*第二部分 右边文字描述部分 品牌描述*/
+.layer2>.layerright>.describe>.describeone{
+	font-size: 16px;
+	color: #333333;
+	/*vertical-align: middle;
+	line-height: 30px;*/
+	/*border: 1px solid red;*/
+	letter-spacing: 0.4px;
+	margin-bottom: 10px;
+}
+
+/*第二部分 右边文字描述部分 详情介绍描述部分*/
+.layer2>.layerright>.describe>.describetwo{
+	font-size: 12px;
+	color: #666666;
+	margin-bottom: 10px;
+}
+
+/*第二部分 右边价格部分*/
+.layerright>.price{
+	margin-top: 6px;
+	padding-top: 12px;
+	border-top: 1px solid #CCCCCC;
+}
+
+.layerright>.price>div{
+	margin-bottom: 12px;
+}
+
+
+.privilegeout{
+	height: 42px;
+}
+
+/*第二部分 右边价格部分 分为左右两部分，左边为分类名称右边为具体类别*/
+.layerright>.price .privilege{
+	float: left;
+	height: 40px;
+}
+
+.layerright>.price .privilege1{
+	float: left;
+}
+.layerright>.price .privilege1>.subprivilege1{
+	margin-right: 16px;
+ 
+}
+.layerright>.price .privilege1>.subprivilege2{
+	margin-top: 10px;
+}
+
+.layerright>.price>.workoff>span{
+	color: #666666;
+	margin-right: 16px;
+}
+
+.layerright .designation{
+	margin-right: 16px;
+	color: #666666;
+}
+
+
+/*第二部分 右边规格部分*/
+.layerright>.classes{
+	padding-top: 20px;
+	border-top: 1px solid #CCCCCC;
+}
+
+.layerright>.classes>.norms1{
+	margin-bottom: 10px;
+	width: 300px;
+	height: 32px;
+	/*text-align: center;*/
+}
+
+
+/*.layerright>.classes>.norms1>.ml{
+	
+	display: inline-block;
+	border: 1px solid #CCCCCC;
+	width: 70px;
+	height: 32px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 32px;
+	margin-right: 10px;
+}*/
+
+/*.layerright>.classes>.norms1>.ml{
+	overflow: hidden;
+	text-align: left;
+	display: inline-block;
+	border: 1px solid #CCCCCC;
+	width: 70px;
+	height: 32px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 32px;
+	margin-right: 10px;
+}*/
+
+.red{
+	border: 1px solid #F95858 !important;
+}
+
+.layerright>.classes>.norms1 label{
+	display: inline-block;
+	width: 70px;
+	height: 32px;
+	/*padding: 5px;*/
+	font-size: 12px;
+	color: #666666;
+	margin-right: 10px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 32px;
+	border: 1px solid #E8E8E8;
+}
+.layerright>.classes>.norms1 label input{
+	/*width: 70px;*/
+	/*height: 30px;*/
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+	
+	/*position: absolute;*/
+}
+
+
+/*第二部分 右边数量部分
+
+{
+	display: inline-block;
+	border: 1px solid #CCCCCC;
+	width: 135px;
+	height: 32px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 32px;
+	margin-right: 10px;
+}*/
+
+.amount_box{
+    width: 236px;
+    height: 32px;
+   	display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+	line-height: 32px;
+	margin-left: 17px;
+}
+
+.amount_box>input{
+    width: 60px;
+    height: 32px;
+    line-height: 32px;
+    color: #343434;
+    text-align: center;
+	float:left;
+    background-color: #fff;
+    border: 1px solid #E8E8E8;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+
+.amount_box a:hover{
+    border-color: #666666;
+    text-decoration: none;
+    color: #ff873e;
+	
+}
+
+.amount_box .reduce{
+	float:left;
+	border: 1px solid #E8E8E8;
+	height:30px;
+	width:36px;
+	line-height: 30px;
+	
+
+}
+
+.amount_box .reSty{
+	
+    color: #CCCCCC;
+}
+
+.amount_box .reSty:hover{
+    /*border-right: none;*/
+    border-color: #e5e5e5;
+    text-decoration: none;
+    color: #999999;
+}
+
+.amount_box .plus{
+	float:left;
+	height:30px;
+	width:36px;
+    border:1px solid #E8E8E8;
+    line-height: 30px;
+    
+}
+
+
+/*第二部分 右边两个按钮部分*/
+
+.layerright>.classes .buy{
+	margin-top: 25px;
+	background: #F95858;
+	border-radius: 4px;
+	color: #F6F6F6;
+	width: 120px;
+	height: 36px;
+	border: none;
+	margin-right: 10px;
+}
+.layerright>.classes .add{
+	margin-top: 25px;
+	background: #F6F6F6;
+	border-radius: 4px;
+	color: #F95858;
+	width: 120px;
+	height: 36px;
+	border: 1px solid #F95858;
+}
+/*第二部分 左右两边的css结束*/
+
+
+
+
+/*第三部分 三张图片的css开始*/
+.name{
+	text-align: center;
+	font-size: 16px;
+	color: #666666;
+	margin-bottom: 16px;
+	letter-spacing: 3px;
+
+}
+/*.layer3{
+	border-bottom: 2px solid #333333;
+	padding-bottom: 18px;
+	margin-bottom: 1px;
+	float: left;
+}*/
+
+.layer3{
+	border-top: 1px solid #333333;
+	border-bottom: 2px solid #333333;
+	margin-top: 2px;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	width: 980px;
+	float: left;
+}
+
+
+.layer3 p{
+	text-align: center;
+	font-size: 12px;
+	color: #333333;
+	margin-top: 16px;
+}
+.layer3>.classifyimg{
+
+	height: 170px;
+	/*margin-bottom: 28px;*/
+}
+
+.layer3>.classifyimg>.imgone{
+	float: left;
+	width: 260px;
+	height: 136px;
+	margin-left: 50px;
+	/*margin-bottom: 16px;*/
+}
+/*第三部分 三张图片的css结束*/
+
+
+/*第四部分 三张图片 开始*/
+.recommend{
+	border-top: 1px solid #333333;
+	border-bottom: 2px solid #333333;
+	margin-top: 2px;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	width: 980px;
+	float: left;
+}
+
+
+.recommend p{
+	text-align: center;
+	font-size: 12px;
+	color: #333333;
+	margin-top: 16px;
+	
+}
+.recommend .details{
+	width: 106px;
+	height: 24px;
+	position: relative;
+	left: 50%;
+	margin-left: -53px;
+	vertical-align: middle;
+	line-height: 24px;
+	/*border: 1px solid red;*/
+	background: #333333;
+}
+.recommend p>a{
+	
+	color: #F6F6F6;
+}
+
+.recommend>.recommendimg{
+	height: 380px;
+
+}
+
+.recommend>.recommendimg>.recommendimg{
+	float: left;
+	width: 260px;
+	height: 380px;
+	margin-left: 31.5px;
+}
+
+.recommend>.recommendimg>.arw1{
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 25px;
+	background: #E8E8E8;
+	width: 25px;
+	height: 25px;
+	border-radius: 15px;
+	margin-top: 110px;
+	margin-left: 12px;
+}
+
+.recommend>.recommendimg>.arw2{
+	float: right;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 25px;
+	background: #E8E8E8;
+	width: 25px;
+	height: 25px;
+	border-radius: 15px;
+	margin-top: 110px;
+	margin-right: 12px;
+}
+/*第四部分 两张图片结束*/
+
+
+/*第五部分 两张图片开始*/
+.detailsServe{
+	border-top: 1px solid #333333;
+	border-bottom: 2px solid #333333;
+	margin-top: 2px;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	width: 980px;
+	float: left;
+}
+
+
+.detailsServe p{
+	text-align: center;
+	font-size: 12px;
+	color: #333333;
+	margin-top: 14px;
+}
+.detailsServe>.serveimg{
+	height: 246px;
+}
+
+.detailsServe>.serveimg>.detailsServeimg1{
+	float: left;
+	margin-left: 155px;
+	margin-right: 60px;
+}
+
+.detailsServe>.serveimg>.detailsServeimg2{
+	float: left;
+}
+/*第五部分 两张图片结束*/
+
+
+
+/*第六部分 两张图片开始*/
+.comment{
+	border-top: 1px solid #333333;
+	border-bottom:2px solid #333333;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	width: 980px;
+	float: left;
+}
+
+
+.comment p{
+	font-size: 12px;
+	color: #333333;
+	margin-bottom: 16px;
+	line-height: 20px;
+}
+
+.comment p>.data{
+	position: relative;
+	margin-left: 100px;
+}
+.comment .details{
+	width: 106px;
+	height: 24px;
+	position: relative;
+	left: 50%;
+	margin-left: -53px;
+	vertical-align: middle;
+	line-height: 24px;
+	/*border: 1px solid red;*/
+	background: #333333;
+}
+.comment p>a{
+	color: #F6F6F6;
+}
+
+
+
+.comment>.commentimg>.commentimg1{
+	float: left;
+	width: 200px;
+	/*height: 150px;*/
+	margin-left: 50px;
+	border: 1px solid #CCCCCC;
+	padding: 16px;
+}
+
+.comment>.commentimg>.commentimg1>img{
+	width: 42px;
+	height: 42px;
+}
+
+.comment>.commentimg>.arw1{
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 25px;
+	background: #E8E8E8;
+	width: 25px;
+	height: 25px;
+	border-radius: 15px;
+	margin-top: 80px;
+	margin-left: 12px;
+}
+
+.comment>.commentimg>.arw2{
+	float: right;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 25px;
+	background: #E8E8E8;
+	width: 25px;
+	height: 25px;
+	border-radius: 15px;
+	margin-top: 80px;
+	margin-right: 12px;
+}
+/*第六部分 两张图片结束*/

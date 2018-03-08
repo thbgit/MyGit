@@ -1,0 +1,391 @@
+ul,ol,li{
+	list-style: none;
+}
+
+.alterpage {
+	width: 980px;
+	text-align: center;
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+	height: 80px;
+}
+
+.alterlogo {
+	width: 322px;
+	/*height: 40px;*/
+	/*margin-left: 470px;*/
+	/*margin-top: 20px;
+	margin-bottom: 20px;*/
+	padding: 15px 0 15px 0;
+	margin-right: 300px;
+	float: left;
+}
+
+.linkman{
+	/*border: 1px solid red;*/
+	padding-top: 42px;
+	padding-bottom: 20px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #333333;
+}
+
+.linkman>span{
+	margin-left: 45px;
+}
+hr{
+	/*width: 100%;*/
+	color: #666666;
+	overflow: hidden;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 980px;
+	/*height: 800px;*/
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+	/*border: 3px solid green;*/
+	padding-top: 60px;
+	padding-bottom: 145px;
+}
+
+.content{
+	width: 322px;
+	position: relative;
+	left: 50%;
+	margin-left: -161px;
+	text-align: center;
+}
+
+.content>.reg{
+
+	text-align: center;
+	font-size: 18px;
+	color: #333333;
+	margin-bottom: 32px;
+}
+
+.content>.user{
+	font-size: 14px;
+	color: #333333;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.content .text{
+	height: 46px;
+	width: 322px;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+/*设置输入框默认显示文字的样式  通过属性<placeholder>*/
+input::-webkit-input-placeholder { /* WebKit browsers*/ 
+color: #CCCCCC;
+font-size:18px;
+text-align: center;
+}
+input:-moz-placeholder {  /* Mozilla Firefox 4 to 18*/ 
+color: #CCCCCC;
+font-size:18px;
+text-align: center;
+}
+input::-moz-placeholder {  /* Mozilla Firefox 19+*/ 
+color: #CCCCCC;
+font-size:18px;
+text-align: center;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+*/ 
+color: #CCCCCC;
+font-size:18px;
+text-align: center;
+}
+
+.content .loginbut{
+	text-align: center;
+	width: 136px;
+	height: 46px;
+	background-color: #F95858;
+	color: #F6F6F6;
+	font-size: 14px;
+	border: none;
+	border-radius: 4px;
+	margin-top: 25px;
+}
+.content .signinbut{
+	width: 136px;
+	height: 46px;
+	background-color: #333333;
+	color: #F6F6F6;
+	font-size: 14px;
+	border: none;
+	border-radius: 4px;
+	margin-top: 32px;
+}
+
+.content>.psd{
+	/*border: 1px solid red;*/
+	width: 196px;
+	margin-left: 63px;
+	padding: 22px 0 22px 0;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+.content>.psd>a{
+	font-size: 14px;
+	color: #333333;
+}
+
+.content>.notsignin{
+	font-size: 18px;
+	color: #333333;
+	margin-top: 32px;
+}
+
+.content>.signin{
+	font-size: 12px;
+	color: #666666;
+	margin-top: 24px;
+}
+
+
+
+
+/*注册页面的CSS*/
+.content>.signbut{
+	text-align: center;
+	width: 322px;
+	height: 46px;
+	background-color: #F95858;
+	color: #F6F6F6;
+	font-size: 14px;
+	border: none;
+	border-radius: 4px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+/*.content .text{
+	height: 46px;
+	width: 322px;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+	font-size: 20px;
+}*/
+.content .regexp{
+	width: 175px;
+	height: 46px;
+	/*border: 1px solid red;*/
+	/*text-align: left;*/
+	border: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+	/*margin-left: 0px;*/
+	font-size:18px ;
+	/*text-align: center;*/
+}
+
+.content .getregexp{
+	border: none;
+	background-color: #E8E8E8;
+	font-size: 14px;
+	color: #333333;
+	width: 137px;
+	height: 46px;
+	border-radius: 4px;
+	margin-left: 4px;
+	margin-bottom: 10px;
+}
+
+.content .regexpfirst{
+	width: 175px;
+	height: 46px;
+	/*border: 1px solid red;*/
+	/*text-align: left;*/
+	border: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	font-size:18px ;
+	/*color: #333333;*/
+	/*text-align: center;*/
+	float:left;
+	
+}
+
+.content .regver{
+	float:left;
+}
+
+.content .regver>img{
+	float:left;
+}
+
+/*checkbox样式的设置*/
+.mycheck { 
+    width: 12px; 
+    height: 12px; 
+   /* margin: 20px 100px;*/
+    position: absolute; 
+    
+}  
+.mycheck input[type=checkbox] {  
+    visibility: hidden;  
+}  
+.mycheck label {  
+    cursor: pointer;  
+    position: absolute;  
+    width: 12px;  
+    height: 12px;  
+    top: 1px;  
+    left: 0;  
+    background: #fff;  
+    border:1px solid #CCCCCC;
+}  
+.mycheck label:after {  
+    opacity: 0;  
+    content: '';
+    position: absolute;
+    margin-top: 3px;
+    margin-left: -4px;
+    padding: 0px;
+    width: 7px;  
+    height: 3px;
+    background: transparent;
+    border: 1px solid #333333;  
+    border-top: none;  
+    border-right: none;  
+    -webkit-transform: rotate(-45deg);  
+    -moz-transform: rotate(-45deg);  
+    -o-transform: rotate(-45deg);  
+    -ms-transform: rotate(-45deg);  
+    transform: rotate(-45deg);  
+}
+
+.mycheck label:hover::after {  
+	opacity: 0.5;
+}  
+.mycheck input[type=checkbox]:checked + label:after{  
+    opacity: 1;  
+}  
+
+ 
+
+.content>span{
+	margin-left: 6px;
+}
+/*注册页面的CSS*/
+
+
+
+
+
+
+
+/*支付成功css*/
+
+.signinmain{
+	width: 980px;
+	/*height: 150px;*/
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+	padding-top: 60px;
+	padding-bottom: 120px;
+}
+
+.signinmain>.signin{
+	width: 210px;
+	position: relative;
+	left: 50%;
+	margin-left: -105px;
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+
+.signinmain>.signin .suc{
+	font-size: 24px;
+	color: #F95858;
+	margin-bottom: 24px;
+}
+
+.signinmain>.signin .user>span{
+	font-size: 14px;
+	color: #333333;
+	margin-right: 20px;
+}
+
+.signinmain .signinbut{
+	font-size: 14px;
+	width: 175px;
+	height: 46px;
+	background-color: #F95858;
+	border-radius: 4px;
+	border: none;
+	color: #F6F6F6;
+	margin-top: 24px;
+	margin-bottom: 20px;
+}
+.signinmain>.signin #time{
+	color: #666666;
+	font-size: 12px;
+}
+.signinmain>.signin .time{
+	color: #666666;
+	font-size: 12px;
+}
+/*支付成功css结束*/
+
+
+
+
+
+
+
+/*表格输入样式变化*/
+.change1{
+	height: 46px;
+	width: 322px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	border:1px solid #F95858 ;
+}
+.change2{
+	border:1px solid #CCCCCC;
+	height: 46px;
+	width: 322px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.change3{
+	width: 175px;
+	height: 46px;
+	/*border: 1px solid red;*/
+	/*text-align: left;*/
+	border:1px solid #F95858 ;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	font-size:18px ;
+	color: #333333;
+	/*text-align: center;*/
+	float:left;
+}
+
+.change4{
+	width: 175px;
+	height: 46px;
+	/*border: 1px solid red;*/
+	/*text-align: left;*/
+	border:1px solid #CCCCCC;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	font-size:18px ;
+	color: #333333;
+	/*text-align: center;*/
+	float:left;
+}

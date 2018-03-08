@@ -1,0 +1,101 @@
+.content {
+	width: 980px;
+	height: 1200px;
+	text-align: center;
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+}
+
+/*banner大图的设置*/
+.banner {
+	height: 476px;
+	text-align: center;
+	overflow: hidden;
+}
+
+
+.image {
+	height: 447px;
+	position: relative;
+}
+
+.word {
+	height: 140px;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.word>span {
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #333333;
+	margin-top: 20px;
+	margin-bottom: 6px;
+}
+
+.word>p {
+	margin-top: 6px;
+	margin-bottom: 8px;
+	color: #666666;
+}
+
+.word>a {
+	font-size: 14px;
+	color: #333333;
+	text-decoration: none;
+	margin-top: 8px;
+}
+
+.word>hr {
+	border: 1px solid #666666;
+	width: 30px;
+	margin-left: 226px;
+	margin-top: 14px;
+}
+
+/*主内容的上半部分*/
+ 
+.up {
+	position: absolute;
+	margin: 30px 0px 10px 0px;
+	height: 587px;
+}
+
+.up_left {
+	float: left;
+	width: 480px;
+	height: 447px;
+	margin-right: 10px;
+}
+
+.up_right {
+	float: right;
+	width: 480px;
+	height: 447px;
+	margin-left: 10px;
+}
+
+
+/*主内容的下半部分*/
+.down {
+	margin-top: 617px;
+	position: absolute;
+	height: 587px;
+}
+
+.down_left {
+	float: left;
+	width: 480px;
+	height: 447px;
+	margin-right: 10px;
+}
+
+.down_right {
+	float: right;
+	width: 480px;
+	height: 447px;
+	margin-left: 10px;
+}

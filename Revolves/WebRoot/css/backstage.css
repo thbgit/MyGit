@@ -1,0 +1,303 @@
+
+
+.alterpage {
+	width: 980px;
+	text-align: center;
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+	height: 80px;
+}
+
+.alterlogo {
+	width: 322px;
+	/*height: 40px;*/
+	/*margin-left: 470px;*/
+	/*margin-top: 20px;
+	margin-bottom: 20px;*/
+	padding: 15px 0 15px 0;
+	margin-right: 300px;
+	float: left;
+}
+
+.linkman{
+	/*border: 1px solid red;*/
+	padding-top: 42px;
+	padding-bottom: 20px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #333333;
+}
+
+.linkman>span{
+	margin-left: 45px;
+}
+hr{
+	/*width: 100%;*/
+	color: #666666;
+	overflow: hidden;
+}
+
+
+
+.altermain{
+	width: 980px;
+	/*height: 150px;*/
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+
+.altermain>.alter{
+	width: 210px;
+	position: relative;
+	left: 50%;
+	margin-left: -105px;
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+
+.altermain>.alter .suc{
+	font-size: 24px;
+	color: #F95858;
+	margin-bottom: 24px;
+}
+
+.altermain>.alter .altersuc{
+	margin-top: 24px;
+	font-size:14px ;
+	color: #333333;
+}
+
+.altermain>.alter .user>span{
+	font-size: 14px;
+	color: #333333;
+	margin-right: 20px;
+}
+
+.alterbut{
+	font-size: 14px;
+	width: 175px;
+	height: 46px;
+	background-color: #F95858;
+	border-radius: 4px;
+	border: none;
+	color: #F6F6F6;
+	margin-top: 24px;
+	margin-bottom: 20px;
+}
+.altermain>.alter #time{
+	color: #666666;
+	font-size: 12px;
+}
+.altermain>.alter .time{
+	color: #666666;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+/*retrieve密码找回修改页面*/
+.retrievemain{
+	width: 980px;
+	/*height: 800px;*/
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+	/*border: 3px solid green;*/
+	padding-top: 60px;
+	padding-bottom: 145px;
+	/*border: 1px solid #CCCCCC;*/
+}
+.contentout{
+	padding-top: 32px;
+	padding-bottom: 32px;
+	border: 1px solid #CCCCCC;
+	width: 484px;
+	position: relative;
+	left: 50%;
+	margin-left: -242px;
+}
+.content{
+	width: 322px;
+	position: relative;
+	left: 50%;
+	margin-left: -161px;
+	/*text-align: center;*/
+	/*border: 1px solid #CCCCCC;*/
+}
+
+.content>.reg{
+	text-align: left;
+	font-size: 18px;
+	color: #333333;
+	margin-bottom: 32px;
+}
+
+.user{
+	font-size: 14px;
+	color: #333333;
+	text-align: left;
+}
+
+.content .text{
+	height: 46px;
+	width: 322px;
+	border: 1px solid #CCCCCC;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+/*设置输入框默认显示文字的样式  通过属性<placeholder>*/
+input::-webkit-input-placeholder { /* WebKit browsers*/ 
+color: #CCCCCC;
+font-size:12px;
+text-align: center;
+}
+input:-moz-placeholder {  /* Mozilla Firefox 4 to 18*/ 
+color: #CCCCCC;
+font-size:12px;
+text-align: center;
+}
+input::-moz-placeholder {  /* Mozilla Firefox 19+*/ 
+color: #CCCCCC;
+font-size:12px;
+text-align: center;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+*/ 
+color: #CCCCCC;
+font-size:12px;
+text-align: center;
+}
+
+.signbut{
+	text-align: center;
+	width: 162px;
+	height: 46px;
+	background-color: #F95858;
+	color: #F6F6F6;
+	font-size: 14px;
+	border: none;
+	border-radius: 4px;
+	margin-top: 32px;
+	margin-bottom: 20px;
+	position: relative;
+	left: 50%;
+	margin-left: -81px;
+}
+/*.content .text{
+	height: 46px;
+	width: 322px;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+	font-size: 20px;
+}*/
+.regexp{
+	width: 175px;
+	height: 46px;
+	/*border: 1px solid red;*/
+	/*text-align: left;*/
+	border: 1px solid #CCCCCC;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*margin-left: 0px;*/
+	font-size:14px ;
+	color: #CCCCCC;
+}
+
+.getregexp{
+	border: none;
+	background-color: #E8E8E8;
+	font-size: 14px;
+	color: #333333;
+	width: 137px;
+	height: 46px;
+	border-radius: 4px;
+	margin-left: 4px;
+	/*margin-bottom: 32px;*/
+}
+
+.switch{
+	float: left;
+	width: 322px;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 16px;
+	height: 25px;
+}
+
+.hint{
+	padding-top: 8px;
+	/*padding-bottom: 16px;*/
+	border-top: 1px solid #CCCCCC;
+	/*border-bottom: 1px solid #CCCCCC;*/
+	margin-top: 22px;
+}
+.hint p{
+	margin-top: 16px;
+}
+.hint>.hintleft{
+	float: left;
+	/*width: 161px;*/
+	font-size: 12px;
+	color: #666666;
+}
+
+.hint>.hintright{
+	float: right;
+	/*width: 161px;*/
+	font-size: 12px;
+	color: #666666;
+}
+
+.skip{
+	font-size:12px ;
+	color: #666666;
+	text-align: center;
+}
+
+
+
+/*.phone{
+	background: #333333;
+	color: #F6F6F6;
+}*/
+
+/*找回方式CSS*/
+.emailway{
+	float: left;
+	width: 85px;
+	border-radius: 3px;
+	font-size: 12px;
+	border: 1px solid #CCCCCC;
+	/*border-bottom: none;*/
+	text-align: center;
+	vertical-align: middle;
+	line-height: 24px;
+	background: #F6F6F6;
+	color: #333333;
+}
+
+
+.mobileway{
+	float: left;
+	width: 85px;
+	border-radius: 3px;
+	font-size: 12px;
+	/*border-bottom: 1px solid red;*/
+	border-bottom: none;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 26px;
+	background: #333333;
+	color: #F6F6F6;
+}
+

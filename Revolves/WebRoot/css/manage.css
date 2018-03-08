@@ -1,0 +1,210 @@
+.main{
+	width: 980px;
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+	border: none;
+}
+.navi{
+	width: 172px;
+	margin-right: 88px;
+	float: left;
+	margin-left: 48px;
+}
+/*给左侧的超链接商品管理添加下滑线*/
+.goodmanage{
+	border-bottom: 1px solid #333333;
+}
+/*设置左侧个人中心上边距*/
+.navi:first-child{
+	margin-top: 60px;	
+}
+
+.navi .owncentre{
+	font-size: 18px;
+	color: #666666;
+}
+
+.navi hr{
+	margin-bottom: 14px;
+	color: #e8e8e8;
+}
+
+.navi p{
+	margin-bottom: 14px;
+}
+
+.navi a{
+	font-size: 14px;
+	color: #333333;
+}
+
+
+
+
+/*右侧发布、仓库、销售的商品信息*/
+.content{
+	float: left;
+	width: 720px;
+	height: 100%;
+}
+.subnavi{
+	margin-top: 56px;
+	color: #666666;
+}
+
+.subnavi a{
+	font-size: 18px;
+	color: #666666;
+}
+
+/*调整三个链接的间距*/
+.release,.cata{
+	margin-right: 18px;
+}
+.cata,.sell{
+	margin-left: 18px;
+}
+
+.subnavi .release{
+	color: #15419b;
+}
+
+/*左侧分类提示*/
+.labe{
+	width: 100px;
+	float: left;
+}
+
+.labe p{
+	font-size: 14px;
+	color: #333333;
+	margin-top: 24px;
+	margin-bottom: 74px;
+}
+
+.labe .goodimg{
+	margin-top: 436px;
+}
+
+.releseinfo{
+	position: relative;
+}
+
+
+.val{
+	width: 100%;
+	position: relative;
+	border: 1px solid white;
+}
+
+.val hr{
+	width: 522px;
+	color: #e8e8e8;
+	margin-top: 32px;
+
+}
+
+
+.val input{
+	height: 46px;
+	margin-top: 20px;
+}
+
+/*标题*/
+.tip{
+	width: 506px;
+	padding-left: 16px;
+	color: #333333;
+}
+
+
+.val .hr1{
+	margin-top: 24px;
+	color: #e8e8e8;
+}
+
+/*详细信息输入框*/
+.val .detailinp{
+	width: 174px;
+	margin-left: 22px;
+	margin-right: 46px;
+}
+
+/*详细信息选择框*/
+.val .detailsel{
+	width: 190px;
+	margin-left: 18px;
+	margin-right: 48px;
+	border: 1px solid #cccccc;	
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	background: url(../../img/admin/arrow.png) no-repeat scroll transparent;
+	background-position:90% 50%;
+
+}
+
+
+.val .detailsel,.val .detailinp{
+	margin-top: 20px;
+	height: 46px;
+	padding-left: 16px;
+	color: #333333;
+	
+}
+
+.val span{
+	color: #666666;
+	padding-top: 20px;
+}
+
+.val .desc{
+	margin-left: 20px;
+	width: 456px;
+	height: 66px;
+	padding-left: 20px;
+	color: #333333;
+}
+
+
+.val .hr2{
+	color: #e8e8e8;
+	width: 522px;
+	margin-bottom: 20px;
+}
+
+.val img{
+	margin-right: 7px;
+}
+
+.bt{
+	text-align: center;
+}
+.btrelease,.btsave{
+	margin-top: 30px;
+	margin-right: 10px;
+	width: 180px;
+	height: 46px;
+	font-size: 14px;
+	border-radius: 4px;
+	border: 1px solid #f95858;
+}
+.btrelease{
+	background-color: #f95858;
+	color: #f6f6f6;
+}
+.btsave{
+	background-color: #f6f6f6;
+	color: #f95858;
+}
+
+.container .hr3{
+	width: 100%;
+	color: #e8e8e8;
+	margin-top: 136px;
+	float: left;
+}
+
+
+

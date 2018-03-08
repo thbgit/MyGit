@@ -1,0 +1,341 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+ 
+/*div {
+	
+	width: 100%;
+	height: 100px;
+}*/
+
+/*顶部框架*/
+.page {
+	width: 980px;
+	text-align: center;
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+	height: 86px;
+}
+
+/*链接样式*/
+a{
+	text-decoration: none;
+	color: #333333;
+}
+/*logocss*/
+.logo {
+	width: 325px;
+	height: 49px;
+	margin-top: 22px;
+	margin-bottom: 24px;
+	float: left;
+}
+.logo>img{
+	float: left;
+}
+
+ul,li{
+	list-style: none;
+	
+}
+
+/*登录注册 */
+.register{
+	height: 86px;
+	float: right;
+	
+}
+
+.entrybar{
+	margin-top: 20px;
+}
+
+.navi{
+	float:left;	
+}
+
+.nav{
+	float:left;	
+}
+ 
+
+.navsort{
+	float:left;
+}
+
+
+ .liimg{
+	margin-left: 4px;
+	margin-right: 20px;
+	float:left;
+	
+}
+
+.nav>li>a{
+	margin-right: 4px;
+}
+.sub-nav{
+	display: none;
+	
+}
+.sub-nav>li{
+	background: white;
+	z-index: 2;
+}
+.entry{
+	float:left;
+}
+
+.logininfo{
+	color: #333333;
+	margin-right: 4px;
+	margin-left: 4px;
+}
+.entry>p>span>a{
+	color: #333333;
+	margin-right: 4px;
+	margin-left: 4px;
+}
+.entry>p>span{
+	margin-right: 4px;
+}
+
+.searchbar{
+	position: absolute;
+	margin-top: 30px;
+	height: 20px;
+	right: 0px;
+}
+
+.searchbar>.subsearch input[type=text]{
+	width: 108px;
+	border: none;
+	padding-bottom: 3px;
+	color: #666666;
+	font-size: 12px;
+	margin-right:0;
+	margin-left: 0;
+	float:left;
+	z-index: -1;
+}
+.searchbar>.subsearch input[type=image]{
+	margin-top: 3px;
+}
+
+.subsearch {
+	float:left;
+	border-bottom: 1px solid #666666;
+	margin-right:22px;
+}
+
+/*可以删掉*/
+.subsearch>a>img{
+	margin-top:3px;
+	float:left;
+}
+
+.searchbar>img{
+	position: absolute;
+	margin-top: 4px;
+}
+/*可以删掉*/
+
+.searchbar>.bag{
+	margin-left:5px;
+	margin-right:6px;
+	color: #333333;
+}
+
+.searchbar>.bag a{
+	color: #333333;
+}
+
+
+#amount{
+	margin-right: 1px;
+}
+/*登录注册结束*/
+
+
+
+/*导航栏样式*/
+.links {
+	width: 100%;
+	height: 40px;
+	background: black;
+}
+
+/*导航列表*/
+.links_list {
+	width: 980px;
+	height: 40px;
+	position: absolute;
+	left: 50%;
+	margin-left: -490px;
+	text-align: center;
+}
+
+/*.homepage,.perfume,.lady,.gentleman,.vip{
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}*/
+
+.links_list>li {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+ 
+
+.links_list>li:nth-child(2){
+	margin-left: 160px;
+	margin-right: 160px;
+}
+ 
+.links_list>li:nth-child(4){
+	margin-left: 160px;
+	margin-right: 160px;
+}
+.links_list>li>a {
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+}
+
+
+/*底部CSS样式*/
+.footer_outter {
+	width: 100%;
+	position: relative;
+	border-top: 1px solid #E8E8E8;
+	padding-bottom: 50px;
+}
+
+.footer_inner {
+	width: 980px;
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+	text-align: center;
+}
+
+/*底部网站的服务等信息css*/
+.serve{
+	width: 980px;
+	margin-top: 54px;
+	margin-bottom: 54px;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	color: #999999;
+	letter-spacing: 2px;
+}
+
+.serveleft>.serveup{
+	width: 80px;
+	margin-left: 115px;
+}
+.servecenter>.serveup{
+	width: 80px;
+	margin-left: 55px;
+}
+
+.serveright>.serveup{
+	width: 80px;
+	margin-left: 115px;
+}
+.serveup>div:first-child{
+	float: left;
+}
+ 
+.serveup>div>img{
+ 
+	margin-top: 5px;
+}
+
+.serveleft{
+	float: left;
+	margin-right: 85px;
+	text-align: center;
+}
+
+.servecenter{
+	float: left;
+}
+
+.serveright{
+	float: right;
+}
+
+.serve span{
+	font-size: 18px;
+	color: #333333;
+	margin: 0;
+}
+
+.serve p{
+	margin-top: 6px;
+	margin-bottom: 2px;
+}
+.serve img{
+	
+}
+ 
+/*底部版权信息copyright样式*/
+.copyright_outter{
+	/*position: relative;*/
+	width: 100%;
+	float: left;
+	background: black;
+	color: white;
+}
+
+.copyright_inner{
+
+	width: 980px;
+	position: relative;
+	left: 50%;
+	margin-left: -490px;
+	height: 40px;
+	background: black;
+	color: white;
+}
+
+.copyright_inner>div:first-child {
+	color: #999999;
+	height: 30px;
+	width: 218px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-right: 170px;
+	font-size: 10px;
+}
+
+.copyright_inner>div:nth-child(2) {
+	color: #999999;
+	height: 30px;
+	width: 260px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 0;
+	font-size: 10px;
+
+}
+
+.copyright_inner>div:last-child{
+	color: #999999;
+	height: 30px;
+	width: 150px;
+	float: right;
+	margin-top: 10px;
+	font-size: 10px;
+	text-align: right;
+	margin-right: 20px;
+}

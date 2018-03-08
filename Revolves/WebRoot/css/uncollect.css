@@ -1,0 +1,49 @@
+.collect, .indext{
+	border-bottom: 1px solid #333333;
+}
+
+.mycollect{
+	font-size: 18px;
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 32px;
+}
+
+.allgoods{
+	font-size: 14px;
+	margin-bottom: 16px;
+}
+
+.showcollect{
+	width: 632px;
+	margin-bottom: 145px;
+	border-top: 1px solid #e8e8e8;	
+	border-bottom: 1px solid #e8e8e8;	
+	float: left;
+	padding-bottom: 10px;
+}
+
+.mycollect .showcollect1{
+		/*border-top: none;*/
+}
+
+.showcollect p{
+	font-size: 14px;
+	color: #cccccc;
+	text-align: center;
+	line-height: 526px;
+}
+
+.showcollect div{
+	float: left;
+}
+
+.item2{
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+
+.showcollect .price{
+	color: #C81D31;
+}
